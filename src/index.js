@@ -1,13 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import App from "./App";
+import MultipleSelect from "./multipleSelct";
+import AsyncSelectSimple from "./selectAsync";
+import MultiSelectAsync from "./multiSelectAsync";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* Para visualizar os demais selects basta descomentar o que deseja ver */}
+    {/* <App /> */}
+    {/* <MultipleSelect /> */}
+    {/* <AsyncSelectSimple /> */}
+    <MultiSelectAsync />
   </React.StrictMode>
 );
 
