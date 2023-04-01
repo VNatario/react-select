@@ -17,4 +17,4 @@ Sendo eles:
 
 **Todos os inputs foram feitos usando `react-select`**
 
-Para ler mais sobre [`react-selct`](hhttps://react-select.com/home)
+Para ler mais sobre [react-selct](hhttps://react-select.com/home)
